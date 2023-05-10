@@ -223,7 +223,7 @@ public class MicrositePageLoadTimeTest extends MicrositeScreenBase {
     public void networkSpeed() throws InterruptedException {
         driver.navigate().to("https://fast.com/");
         driver.findElement(By.xpath("//span[@id='speed-progress-indicator-icon']")).click();
-        Thread.sleep(30000);
+        Thread.sleep(60000);
     }
 
 

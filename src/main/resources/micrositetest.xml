@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UDISEFLow">
+
+    <listeners>
+        <listener class-name="com.micrositescreenloadtime.extentreport.ExtentReporterNG" />
+    </listeners>
+
+    <test name="UDISE Flow">
+        <classes>
+            <class name="com.micrositescreenloadtimeqa.testcases.MicrositePageLoadTimeTest"></class>
+        </classes>
+    </test>
+
+
+</suite>

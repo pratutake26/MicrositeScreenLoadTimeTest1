@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="23" total="24" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-10T17:34:39Z" name="Default Suite" finished-at="2023-05-10T17:34:47Z" duration-ms="8141">
+    <groups>
+    </groups>
+    <test started-at="2023-05-10T17:34:39Z" name="MicrositeScreenLoadTime" finished-at="2023-05-10T17:34:47Z" duration-ms="8141">
+      <class name="com.micrositescreenloadtimeqa.testcases.MicrositePageLoadTimeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.micrositescreenloadtimeqa.testcases.MicrositePageLoadTimeTest@306279ee]" started-at="2023-05-10T23:04:39Z" name="setUp" finished-at="2023-05-10T23:04:41Z" duration-ms="1761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="haryanaStudentTimeTest()[pri:17, instance:com.micrositescreenloadtimeqa.testcases.MicrositePageLoadTimeTest@306279ee]" started-at="2023-05-10T23:04:41Z" name="haryanaStudentTimeTest" finished-at="2023-05-10T23:04:47Z" duration-ms="6255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- haryanaStudentTimeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.micrositescreenloadtimeqa.testcases.MicrositePageLoadTimeTest@306279ee]" started-at="2023-05-10T23:04:47Z" name="tearDown" finished-at="2023-05-10T23:04:47Z" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.micrositescreenloadtimeqa.testcases.MicrositePageLoadTimeTest -->
+    </test> <!-- MicrositeScreenLoadTime -->
+  </suite> <!-- Default Suite -->
+</testng-results>

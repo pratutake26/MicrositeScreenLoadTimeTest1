@@ -136,7 +136,7 @@ public class MicrositePageLoadTimeTest extends MicrositeScreenBase {
         String Teacher = "Teacher";
         MPLT.intiallTime();
         driver.get(prop.getProperty("HTurl"));
-        System.out.println("HimachalPradesh Teacher Landing Page Microsite");
+        System.out.println("HimachalPradesh Teacher Landing page Microsite");
         MPLT.pageBanner(Teacher);
     }
     @Test(priority = 15)

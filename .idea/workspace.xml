@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="5fc1518d-93c6-40d9-a169-e505e43640c9" name="Changes" comment="Version:1.0(4G - 5Mbps)&#10;- Changed network speed to 1Mbps">
       <change beforePath="$PROJECT_DIR$/src/test/java/com/micrositescreenloadtimeqa/testcases/MicrositePageLoadTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/micrositescreenloadtimeqa/testcases/MicrositePageLoadTimeTest.java" afterDir="false" />
     </list>
+=======
+    <list default="true" id="5fc1518d-93c6-40d9-a169-e505e43640c9" name="Changes" comment="Version:1.0(4G - 5Mbps)&#10;- Changed network speed to 1Mbps" />
+>>>>>>> bff3c131383f60a79735a1bf9c368ead1dda47e7
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,6 +200,7 @@
       <option name="project" value="LOCAL" />
       <updated>1683741559679</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00003" summary="Version:1.0(4G - 5Mbps)&#10;- Changed network speed to 1Mbps">
       <created>1683746368183</created>
       <option name="number" value="00003" />
@@ -204,6 +209,23 @@
       <updated>1683746368183</updated>
     </task>
     <option name="localTasksCounter" value="4" />
+=======
+    <task id="LOCAL-00003" summary="Version:1.0(4G - 5Mbps)&#10;- networkSpeedMethod Added to check network">
+      <created>1683745143265</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683745143265</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Version:1.0(4G - 5Mbps)&#10;- Changed network speed to 1Mbps">
+      <created>1683745456885</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683745456885</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+>>>>>>> bff3c131383f60a79735a1bf9c368ead1dda47e7
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +242,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version:1.0(4G - 5Mbps)" />
     <MESSAGE value="Version:1.0(4G - 5Mbps)&#10;- String Change" />
+<<<<<<< HEAD
+=======
+    <MESSAGE value="Version:1.0(4G - 5Mbps)&#10;- networkSpeedMethod Added to check network" />
+>>>>>>> bff3c131383f60a79735a1bf9c368ead1dda47e7
     <MESSAGE value="Version:1.0(4G - 5Mbps)&#10;- Changed network speed to 1Mbps" />
     <option name="LAST_COMMIT_MESSAGE" value="Version:1.0(4G - 5Mbps)&#10;- Changed network speed to 1Mbps" />
   </component>

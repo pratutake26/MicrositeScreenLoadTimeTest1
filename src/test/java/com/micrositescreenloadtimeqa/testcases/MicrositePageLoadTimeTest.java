@@ -219,7 +219,12 @@ public class MicrositePageLoadTimeTest extends MicrositeScreenBase {
         System.out.println("uttarPrades Teacher Landing Page Microsite");
         MPLT.pageBanner(Teacher);
     }
-
+    @Test(priority = 25)
+    public void networkSpeed() throws InterruptedException {
+        driver.navigate().to("https://fast.com/");
+        driver.findElement(By.xpath("//span[@id='speed-progress-indicator-icon']")).click();
+        Thread.sleep(30000);
+    }
 
 
 

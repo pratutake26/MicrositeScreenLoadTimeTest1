@@ -216,21 +216,85 @@ public class MicrositePageLoadTimeTest extends MicrositeScreenBase {
         String Teacher = "Teacher";
         MPLT.intiallTime();
         driver.get(prop.getProperty("RTurl"));
-        System.out.println("uttarPrades Teacher Landing Page Microsite");
+        System.out.println("Rajasthan Teacher Landing Page Microsite");
         MPLT.pageBanner(Teacher);
     }
+
+
     @Test(priority = 25)
+    public void jharkhandStudentTimeTest(){
+        String Student = "Student";
+        MPLT.intiallTime();
+        driver.get(prop.getProperty("JHSurl"));
+        System.out.println("Jharkhand Student Landing Page Microsite");
+        MPLT.pageBanner(Student);
+    }
+    @Test(priority = 26)
+    public void jharkhandTeacherTimeTest(){
+        String Teacher = "Teacher";
+        MPLT.intiallTime();
+        driver.get(prop.getProperty("JHSurl"));
+        System.out.println("Jharkhand Teacher Landing Page Microsite");
+        MPLT.pageBanner(Teacher);
+    }
+    @Test(priority = 27)
+    public void meghalayaStudentTimeTest(){
+        String Student = "Student";
+        MPLT.intiallTime();
+        driver.get(prop.getProperty("MESurl"));
+        System.out.println("Meghalaya Student Landing Page Microsite");
+        MPLT.pageBanner(Student);
+    }
+    @Test(priority = 28)
+    public void meghalayaTeacherTimeTest(){
+        String Teacher = "Teacher";
+        MPLT.intiallTime();
+        driver.get(prop.getProperty("METurl"));
+        System.out.println("Meghalaya Teacher Landing Page Microsite");
+        MPLT.pageBanner(Teacher);
+    }
+    @Test(priority = 29)
+    public void tamilnaduStudentTimeTest(){
+        String Student = "Student";
+        MPLT.intiallTime();
+        driver.get(prop.getProperty("TSurl"));
+        System.out.println("Tamilnadu Student Landing Page Microsite");
+        MPLT.pageBanner(Student);
+    }
+    @Test(priority = 30)
+    public void tamilnaduTeacherTimeTest(){
+        String Teacher = "Teacher";
+        MPLT.intiallTime();
+        driver.get(prop.getProperty("TTurl"));
+        System.out.println("Tamilnadu Teacher Landing Page Microsite");
+        MPLT.pageBanner(Teacher);
+    }
+    @Test(priority = 31)
+    public void oddisaStudentTimeTest(){
+        String Student = "Student";
+        MPLT.intiallTime();
+        driver.get(prop.getProperty("OSurl"));
+        System.out.println("Oddisa Student Landing Page Microsite");
+        MPLT.pageBanner(Student);
+    }
+    @Test(priority = 32)
+    public void oddisaTeacherTimeTest(){
+        String Teacher = "Teacher";
+        MPLT.intiallTime();
+        driver.get(prop.getProperty("OTurl"));
+        System.out.println("Oddisa Teacher Landing Page Microsite");
+        MPLT.pageBanner(Teacher);
+    }
+
+    @Test(priority = 33)
     public void networkSpeed() throws InterruptedException {
         driver.navigate().to("https://fast.com/");
         driver.findElement(By.xpath("//span[@id='speed-progress-indicator-icon']")).click();
-        Thread.sleep(60000);
+        Thread.sleep(100000);
     }
-
-
 
     @AfterMethod
     public void tearDown(){
-
         driver.quit();
     }
 

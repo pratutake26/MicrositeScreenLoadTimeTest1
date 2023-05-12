@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fc1518d-93c6-40d9-a169-e505e43640c9" name="Changes" comment="Network speed 3Mbps">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/micrositescreenloadtime/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/micrositescreenloadtime/config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/micrositescreenloadtimeqa/testcases/MicrositePageLoadTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/micrositescreenloadtimeqa/testcases/MicrositePageLoadTimeTest.java" afterDir="false" />
+    <list default="true" id="5fc1518d-93c6-40d9-a169-e505e43640c9" name="Changes" comment="Testcases added for Telagana and Ladak">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/micrositescreenloadtime/testbase/MicrositeScreenBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/micrositescreenloadtime/testbase/MicrositeScreenBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683836132437</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Testcases added for Telagana and Ladak">
+      <created>1683887886037</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683887886038</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,6 +272,7 @@
     <MESSAGE value="Version:1.0(4G - 5Mbps)&#10;- Changed network speed to 1Mbps" />
     <MESSAGE value="Network speed 2Mbps" />
     <MESSAGE value="Network speed 3Mbps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Network speed 3Mbps" />
+    <MESSAGE value="Testcases added for Telagana and Ladak" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testcases added for Telagana and Ladak" />
   </component>
 </project>

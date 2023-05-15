@@ -317,45 +317,45 @@ public class MicrositePageLoadTimeTest extends MicrositeScreenBase {
 //        System.out.println("Telangana Teacher Landing Page Microsite");
 //        MPLT.pageBanner(Teacher);
 //    }
-//    @Test(priority = 37)
-//    public void sikkimStudentTimeTest(){
-//        String Student = "Student";
-//        MPLT.intiallTime();
-//        driver.get(prop.getProperty("SKSurl"));
-//        System.out.println("Sikkim Student Landing Page Microsite");
-//        MPLT.pageBanner(Student);
-//    }
-//    @Test(priority = 38)
-//    public void sikkimTeacherTimeTest(){
-//        String Teacher = "Teacher";
-//        MPLT.intiallTime();
-//        driver.get(prop.getProperty("SKTurl"));
-//        System.out.println("Sikkim Teacher Landing Page Microsite");
-//        MPLT.pageBanner(Teacher);
-//    }
-//    @Test(priority = 39)
-//    public void chhattisgarhStudentTimeTest(){
-//        String Student = "Student";
-//        MPLT.intiallTime();
-//        driver.get(prop.getProperty("CHSurl"));
-//        System.out.println("Chhattisgarh Student Landing Page Microsite");
-//        MPLT.pageBanner(Student);
-//    }
-//    @Test(priority = 40)
-//    public void chhattisgarhTeacherTimeTest(){
-//        String Teacher = "Teacher";
-//        MPLT.intiallTime();
-//        driver.get(prop.getProperty("CHTurl"));
-//        System.out.println("Chhattisgarh Teacher Landing Page Microsite");
-//        MPLT.pageBanner(Teacher);
-//    }
-//
-//    @Test(priority = 41)
-//    public void networkSpeed() throws InterruptedException {
-//        driver.navigate().to("https://fast.com/");
-//        Thread.sleep(100000);
-//        driver.findElement(By.xpath("//span[@id='speed-progress-indicator-icon']")).click();
-//    }
+    @Test(priority = 37)
+    public void sikkimStudentTimeTest(){
+        String Student = "Student";
+        MPLT.intiallTime();
+        driver.get(prop.getProperty("SKSurl"));
+        System.out.println("Sikkim Student Landing Page Microsite");
+        MPLT.pageBanner(Student);
+    }
+    @Test(priority = 38)
+    public void sikkimTeacherTimeTest(){
+        String Teacher = "Teacher";
+        MPLT.intiallTime();
+        driver.get(prop.getProperty("SKTurl"));
+        System.out.println("Sikkim Teacher Landing Page Microsite");
+        MPLT.pageBanner(Teacher);
+    }
+    @Test(priority = 39)
+    public void chhattisgarhStudentTimeTest(){
+        String Student = "Student";
+        MPLT.intiallTime();
+        driver.get(prop.getProperty("CHSurl"));
+        System.out.println("Chhattisgarh Student Landing Page Microsite");
+        MPLT.pageBanner(Student);
+    }
+    @Test(priority = 40)
+    public void chhattisgarhTeacherTimeTest(){
+        String Teacher = "Teacher";
+        MPLT.intiallTime();
+        driver.get(prop.getProperty("CHTurl"));
+        System.out.println("Chhattisgarh Teacher Landing Page Microsite");
+        MPLT.pageBanner(Teacher);
+    }
+
+    @Test(priority = 41)
+    public void networkSpeed() throws InterruptedException {
+        driver.navigate().to("https://fast.com/");
+        Thread.sleep(100000);
+        driver.findElement(By.xpath("//span[@id='speed-progress-indicator-icon']")).click();
+    }
 
     @AfterMethod
     public void tearDown(){

@@ -81,7 +81,7 @@ public class MicrositeScreenBase {
         eventListener = new WebEventListener();
         e_driver.register(eventListener);
         driver = e_driver;
-        setNetworkConditions(e_driver, 390000, 390000); // Set network conditions
+        setNetworkConditions(e_driver, 260000, 260000); // Set network conditions
 
 
     }

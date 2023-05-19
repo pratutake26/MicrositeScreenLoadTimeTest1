@@ -350,47 +350,116 @@ public class MicrositePageLoadTimeTest extends MicrositeScreenBase {
 //        MPLT.pageBanner(Teacher);
 //    }
 //
-    @Test(priority = 41)
-    public void andhrapradeshStudentTimeTest(){
-        String Student = "Student";
-        MPLT.intiallTime();
-        driver.get(prop.getProperty("ANSurl"));
-        System.out.println("Andhra Pradesh Student Landing Page Microsite");
-        MPLT.pageBanner(Student);
-    }
+//    @Test(priority = 41)
+//    public void andhrapradeshStudentTimeTest(){
+//        String Student = "Student";
+//        MPLT.intiallTime();
+//        driver.get(prop.getProperty("ANSurl"));
+//        System.out.println("Andhra Pradesh Student Landing Page Microsite");
+//        MPLT.pageBanner(Student);
+//    }
+//
+//    @Test(priority = 42)
+//    public void andhrapradeshTeacherTimeTest(){
+//        String Teacher = "Teacher";
+//        MPLT.intiallTime();
+//        driver.get(prop.getProperty("ANTurl"));
+//        System.out.println("Andhra Pradesh Teacher Landing Page Microsite");
+//        MPLT.pageBanner(Teacher);
+//    }
+//    @Test(priority = 43)
+//    public void arunachalpradeshStudentTimeTest(){
+//        String Student = "Student";
+//        MPLT.intiallTime();
+//        driver.get(prop.getProperty("ARSurl"));
+//        System.out.println("Arunachal Pradesh Student Landing Page Microsite");
+//        MPLT.pageBanner(Student);
+//    }
+//    @Test(priority = 44)
+//    public void arunachalpradeshTeacherTimeTest(){
+//        String Teacher = "Teacher";
+//        MPLT.intiallTime();
+//        driver.get(prop.getProperty("ARTurl"));
+//        System.out.println("Arunachal Pradesh Teacher Landing Page Microsite");
+//        MPLT.pageBanner(Teacher);
+//    }
 
-    @Test(priority = 42)
-    public void andhrapradeshTeacherTimeTest(){
-        String Teacher = "Teacher";
-        MPLT.intiallTime();
-        driver.get(prop.getProperty("ANTurl"));
-        System.out.println("Andhra Pradesh Teacher Landing Page Microsite");
-        MPLT.pageBanner(Teacher);
-    }
-    @Test(priority = 43)
-    public void arunachalpradeshStudentTimeTest(){
-        String Student = "Student";
-        MPLT.intiallTime();
-        driver.get(prop.getProperty("ARSurl"));
-        System.out.println("Arunachal Pradesh Student Landing Page Microsite");
-        MPLT.pageBanner(Student);
-    }
-    @Test(priority = 44)
-    public void arunachalpradeshTeacherTimeTest(){
-        String Teacher = "Teacher";
-        MPLT.intiallTime();
-        driver.get(prop.getProperty("ARTurl"));
-        System.out.println("Arunachal Pradesh Teacher Landing Page Microsite");
-        MPLT.pageBanner(Teacher);
-    }
 
     @Test(priority = 45)
+    public void westBengalStudentTimeTest(){
+        String Student = "Student";
+        MPLT.intiallTime();
+        driver.get(prop.getProperty("WSurl"));
+        System.out.println("West Bengal Student Landing Page Microsite");
+        MPLT.pageBanner(Student);
+    }
+
+    @Test(priority = 46)
+    public void westBengalTeacherTimeTest(){
+        String Teacher = "Teacher";
+        MPLT.intiallTime();
+        driver.get(prop.getProperty("WTurl"));
+        System.out.println("West Bengal Teacher Landing Page Microsite");
+        MPLT.pageBanner(Teacher);
+    }
+    @Test(priority = 47)
+    public void delhiStudentTimeTest(){
+        String Student = "Student";
+        MPLT.intiallTime();
+        driver.get(prop.getProperty("DSurl"));
+        System.out.println("Delhi Student Landing Page Microsite");
+        MPLT.pageBanner(Student);
+    }
+
+    @Test(priority = 48)
+    public void delhiTeacherTimeTest(){
+        String Teacher = "Teacher";
+        MPLT.intiallTime();
+        driver.get(prop.getProperty("DTurl"));
+        System.out.println("Delhi Teacher Landing Page Microsite");
+        MPLT.pageBanner(Teacher);
+    }
+    @Test(priority = 49)
+    public void maharashtraStudentTimeTest(){
+        String Student = "Student";
+        MPLT.intiallTime();
+        driver.get(prop.getProperty("MHSurl"));
+        System.out.println("Maharashtra Student Landing Page Microsite");
+        MPLT.pageBanner(Student);
+    }
+
+    @Test(priority = 50)
+    public void maharashtraTeacherTimeTest(){
+        String Teacher = "Teacher";
+        MPLT.intiallTime();
+        driver.get(prop.getProperty("MHTurl"));
+        System.out.println("Maharashtra Teacher Landing Page Microsite");
+        MPLT.pageBanner(Teacher);
+    }
+
+    @Test(priority = 51)
+    public void jammuKhasmirStudentTimeTest(){
+        String Student = "Student";
+        MPLT.intiallTime();
+        driver.get(prop.getProperty("JKSurl"));
+        System.out.println("Jammu Khasmir Student Landing Page Microsite");
+        MPLT.pageBanner(Student);
+    }
+
+    @Test(priority = 52)
+    public void jammuKhasmirTeacherTimeTest(){
+        String Teacher = "Teacher";
+        MPLT.intiallTime();
+        driver.get(prop.getProperty("JKTurl"));
+        System.out.println("Jammu Khasmir Teacher Landing Page Microsite");
+        MPLT.pageBanner(Teacher);
+    }
+    @Test(priority = 53)
     public void networkSpeed() throws InterruptedException {
         driver.navigate().to("https://fast.com/");
         Thread.sleep(100000);
         driver.findElement(By.xpath("//span[@id='speed-progress-indicator-icon']")).click();
     }
-
     @AfterMethod
     public void tearDown(){
         driver.quit();

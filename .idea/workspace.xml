@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fc1518d-93c6-40d9-a169-e505e43640c9" name="Changes" comment="Delhi,JK, Maharashtra, WestBengal added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5fc1518d-93c6-40d9-a169-e505e43640c9" name="Changes" comment="Urls issue" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -277,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684464925919</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Urls issue">
+      <created>1684466031267</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1684466031267</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,6 +310,7 @@
     <MESSAGE value="New TestCased added" />
     <MESSAGE value="network speed" />
     <MESSAGE value="Delhi,JK, Maharashtra, WestBengal added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delhi,JK, Maharashtra, WestBengal added" />
+    <MESSAGE value="Urls issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Urls issue" />
   </component>
 </project>

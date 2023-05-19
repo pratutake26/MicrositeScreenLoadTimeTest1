@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fc1518d-93c6-40d9-a169-e505e43640c9" name="Changes" comment="Network Speed">
+    <list default="true" id="5fc1518d-93c6-40d9-a169-e505e43640c9" name="Changes" comment="network speed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/micrositescreenloadtime/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/micrositescreenloadtime/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/micrositescreenloadtimeqa/testcases/MicrositePageLoadTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/micrositescreenloadtimeqa/testcases/MicrositePageLoadTimeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +270,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684171559330</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="New TestCased added">
+      <created>1684300563123</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684300563123</updated>
+    </task>
+    <task id="LOCAL-00013" summary="network speed">
+      <created>1684301150097</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684301150097</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,6 +309,8 @@
     <MESSAGE value="2mbps" />
     <MESSAGE value="New Page Added" />
     <MESSAGE value="Network Speed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Network Speed" />
+    <MESSAGE value="New TestCased added" />
+    <MESSAGE value="network speed" />
+    <option name="LAST_COMMIT_MESSAGE" value="network speed" />
   </component>
 </project>

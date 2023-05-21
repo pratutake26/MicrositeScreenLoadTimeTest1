@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-21T11:19:58Z" name="UDISEFLow" finished-at="2023-05-21T11:20:39Z" duration-ms="41568">
+    <groups>
+    </groups>
+    <test started-at="2023-05-21T11:19:58Z" name="UDISE Flow" finished-at="2023-05-21T11:20:39Z" duration-ms="41568">
+      <class name="com.micrositescreenloadtimeqa.testcases.MicrositePageLoadTimeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.micrositescreenloadtimeqa.testcases.MicrositePageLoadTimeTest@51c8530f]" started-at="2023-05-21T16:49:58Z" name="setUp" finished-at="2023-05-21T16:50:05Z" duration-ms="7075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="maharashtraTeacherTimeTest()[pri:50, instance:com.micrositescreenloadtimeqa.testcases.MicrositePageLoadTimeTest@51c8530f]" started-at="2023-05-21T16:50:05Z" name="maharashtraTeacherTimeTest" finished-at="2023-05-21T16:50:11Z" duration-ms="6727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maharashtraTeacherTimeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.micrositescreenloadtimeqa.testcases.MicrositePageLoadTimeTest@51c8530f]" started-at="2023-05-21T16:50:11Z" name="tearDown" finished-at="2023-05-21T16:50:13Z" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.micrositescreenloadtimeqa.testcases.MicrositePageLoadTimeTest@51c8530f]" started-at="2023-05-21T16:50:13Z" name="setUp" finished-at="2023-05-21T16:50:18Z" duration-ms="4925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="jammuKhasmirStudentTimeTest()[pri:51, instance:com.micrositescreenloadtimeqa.testcases.MicrositePageLoadTimeTest@51c8530f]" started-at="2023-05-21T16:50:18Z" name="jammuKhasmirStudentTimeTest" finished-at="2023-05-21T16:50:26Z" duration-ms="8136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jammuKhasmirStudentTimeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.micrositescreenloadtimeqa.testcases.MicrositePageLoadTimeTest@51c8530f]" started-at="2023-05-21T16:50:26Z" name="tearDown" finished-at="2023-05-21T16:50:27Z" duration-ms="1403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.micrositescreenloadtimeqa.testcases.MicrositePageLoadTimeTest@51c8530f]" started-at="2023-05-21T16:50:27Z" name="setUp" finished-at="2023-05-21T16:50:33Z" duration-ms="5517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="jammuKhasmirTeacherTimeTest()[pri:52, instance:com.micrositescreenloadtimeqa.testcases.MicrositePageLoadTimeTest@51c8530f]" started-at="2023-05-21T16:50:33Z" name="jammuKhasmirTeacherTimeTest" finished-at="2023-05-21T16:50:38Z" duration-ms="4980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jammuKhasmirTeacherTimeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.micrositescreenloadtimeqa.testcases.MicrositePageLoadTimeTest@51c8530f]" started-at="2023-05-21T16:50:38Z" name="tearDown" finished-at="2023-05-21T16:50:39Z" duration-ms="1393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.micrositescreenloadtimeqa.testcases.MicrositePageLoadTimeTest -->
+    </test> <!-- UDISE Flow -->
+  </suite> <!-- UDISEFLow -->
+</testng-results>

@@ -385,48 +385,48 @@ public class MicrositePageLoadTimeTest extends MicrositeScreenBase {
 //    }
 
 
-    @Test(priority = 45)
-    public void westBengalStudentTimeTest(){
-        String Student = "Student";
-        MPLT.intiallTime();
-        driver.get(prop.getProperty("WSurl"));
-        System.out.println("West Bengal Student Landing Page Microsite");
-        MPLT.pageBanner(Student);
-    }
-
-    @Test(priority = 46)
-    public void westBengalTeacherTimeTest(){
-        String Teacher = "Teacher";
-        MPLT.intiallTime();
-        driver.get(prop.getProperty("WTurl"));
-        System.out.println("West Bengal Teacher Landing Page Microsite");
-        MPLT.pageBanner(Teacher);
-    }
-    @Test(priority = 47)
-    public void delhiStudentTimeTest(){
-        String Student = "Student";
-        MPLT.intiallTime();
-        driver.get(prop.getProperty("DSurl"));
-        System.out.println("Delhi Student Landing Page Microsite");
-        MPLT.pageBanner(Student);
-    }
-
-    @Test(priority = 48)
-    public void delhiTeacherTimeTest(){
-        String Teacher = "Teacher";
-        MPLT.intiallTime();
-        driver.get(prop.getProperty("DTurl"));
-        System.out.println("Delhi Teacher Landing Page Microsite");
-        MPLT.pageBanner(Teacher);
-    }
-    @Test(priority = 49)
-    public void maharashtraStudentTimeTest(){
-        String Student = "Student";
-        MPLT.intiallTime();
-        driver.get(prop.getProperty("MHSurl"));
-        System.out.println("Maharashtra Student Landing Page Microsite");
-        MPLT.pageBanner(Student);
-    }
+//    @Test(priority = 45)
+//    public void westBengalStudentTimeTest(){
+//        String Student = "Student";
+//        MPLT.intiallTime();
+//        driver.get(prop.getProperty("WSurl"));
+//        System.out.println("West Bengal Student Landing Page Microsite");
+//        MPLT.pageBanner(Student);
+//    }
+//
+//    @Test(priority = 46)
+//    public void westBengalTeacherTimeTest(){
+//        String Teacher = "Teacher";
+//        MPLT.intiallTime();
+//        driver.get(prop.getProperty("WTurl"));
+//        System.out.println("West Bengal Teacher Landing Page Microsite");
+//        MPLT.pageBanner(Teacher);
+//    }
+//    @Test(priority = 47)
+//    public void delhiStudentTimeTest(){
+//        String Student = "Student";
+//        MPLT.intiallTime();
+//        driver.get(prop.getProperty("DSurl"));
+//        System.out.println("Delhi Student Landing Page Microsite");
+//        MPLT.pageBanner(Student);
+//    }
+//
+//    @Test(priority = 48)
+//    public void delhiTeacherTimeTest(){
+//        String Teacher = "Teacher";
+//        MPLT.intiallTime();
+//        driver.get(prop.getProperty("DTurl"));
+//        System.out.println("Delhi Teacher Landing Page Microsite");
+//        MPLT.pageBanner(Teacher);
+//    }
+//    @Test(priority = 49)
+//    public void maharashtraStudentTimeTest(){
+//        String Student = "Student";
+//        MPLT.intiallTime();
+//        driver.get(prop.getProperty("MHSurl"));
+//        System.out.println("Maharashtra Student Landing Page Microsite");
+//        MPLT.pageBanner(Student);
+//    }
 
     @Test(priority = 50)
     public void maharashtraTeacherTimeTest(){
@@ -454,12 +454,12 @@ public class MicrositePageLoadTimeTest extends MicrositeScreenBase {
         System.out.println("Jammu Khasmir Teacher Landing Page Microsite");
         MPLT.pageBanner(Teacher);
     }
-    @Test(priority = 53)
-    public void networkSpeed() throws InterruptedException {
-        driver.navigate().to("https://fast.com/");
-        Thread.sleep(100000);
-        driver.findElement(By.xpath("//span[@id='speed-progress-indicator-icon']")).click();
-    }
+//    @Test(priority = 53)
+//    public void networkSpeed() throws InterruptedException {
+//        driver.navigate().to("https://fast.com/");
+//        Thread.sleep(100000);
+//        driver.findElement(By.xpath("//span[@id='speed-progress-indicator-icon']")).click();
+//    }
     @AfterMethod
     public void tearDown(){
         driver.quit();

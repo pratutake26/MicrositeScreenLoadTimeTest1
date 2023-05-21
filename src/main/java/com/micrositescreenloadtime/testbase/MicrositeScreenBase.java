@@ -29,7 +29,7 @@ public class MicrositeScreenBase {
     public MicrositeScreenBase() throws FileNotFoundException {
         try {
             prop = new Properties();
-            FileInputStream ip = new FileInputStream("/Users/seekekrishna/Documents/MicrositeScreenLoadTime/MicrositeScreenLoadTime/src/main/java/com/micrositescreenloadtime/config/config.properties");
+            FileInputStream ip = new FileInputStream("/Users/pratikshatake/Documents/MicrositeScreensLoadingTime/src/main/java/com/micrositescreenloadtime/config/config.properties");
             prop.load(ip);
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -70,7 +70,7 @@ public class MicrositeScreenBase {
 
 
     public static void initialization() throws IOException {
-        System.setProperty("webdriver.chrome.driver", "/Users/seekekrishna/Documents/selenium/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/pratikshatake/Documents/demo1/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();

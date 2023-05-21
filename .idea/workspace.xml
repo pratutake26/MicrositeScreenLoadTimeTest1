@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fc1518d-93c6-40d9-a169-e505e43640c9" name="Changes" comment="Urls issue" />
+    <list default="true" id="5fc1518d-93c6-40d9-a169-e505e43640c9" name="Changes" comment="Urls issue">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/micrositescreenloadtime/testbase/MicrositeScreenBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/micrositescreenloadtime/testbase/MicrositeScreenBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/micrositescreenloadtime/utils/MicrositeScreenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/micrositescreenloadtime/utils/MicrositeScreenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/micrositetest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/micrositetest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/micrositescreenloadtimeqa/testcases/MicrositePageLoadTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/micrositescreenloadtimeqa/testcases/MicrositePageLoadTimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Extent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.micrositescreenloadtimeqa.testcases.MicrositePageLoadTimeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.micrositescreenloadtimeqa.testcases.MicrositePageLoadTimeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,15 +53,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/pratikshatake/Documents/MicrositeScreensLoadingTime",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.MicrositePageLoadTimeTest">
+}]]></component>
+  <component name="RunManager" selected="TestNG./Users/seekekrishna/Documents/MicrositeScreenLoadTime/MicrositeScreenLoadTime/src/main/resources/micrositetest.xml">
     <configuration name="MicrositeDailySignoffScreenLoadTime" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MicrositeScreenLoadTime" />
       <extension name="coverage">
@@ -160,11 +173,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/seekekrishna/Documents/MicrositeScreenLoadTime/MicrositeScreenLoadTime/src/main/resources/micrositetest.xml" />
         <item itemvalue="TestNG.MicrositePageLoadTimeTest" />
         <item itemvalue="TestNG.MicrositeDailySignoffScreenLoadTime" />
         <item itemvalue="TestNG.MicrositePageLoadTimeTest.networkSpeed" />
         <item itemvalue="TestNG.MicrositePageLoadTimeTest.haryanaStudentTimeTest" />
-        <item itemvalue="TestNG./Users/seekekrishna/Documents/MicrositeScreenLoadTime/MicrositeScreenLoadTime/src/main/resources/micrositetest.xml" />
       </list>
     </recent_temporary>
   </component>

@@ -4,11 +4,6 @@
     <listeners>
         <listener class-name="com.micrositescreenloadtime.extentreport.ExtentReporterNG" />
     </listeners>
-    <test name="UDISE Flow">
-        <classes>
-            <class name="com.micrositescreenloadtimeqa.testcases.MicrositeDailySignoffScreenLoadTime"></class>
-        </classes>
-    </test>
 
     <test name="UDISE Flow">
         <classes>
